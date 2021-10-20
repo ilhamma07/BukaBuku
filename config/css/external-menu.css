@@ -1,0 +1,61 @@
+/*menu----------------------------------------------------------------------------------------------------------------------------*/
+.menu li
+{
+	float: left;
+	display: inline-block;
+	position: relative;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.menu li a 
+{
+	padding: 10px 10px;  
+	text-decoration: none; 
+	color: #000; 
+}
+
+.menu li a:hover,.menu li:hover>a 
+{
+	color: #aaa;
+}
+
+.menu ul
+{
+	visibility: hidden;
+	position: absolute;
+	background: #fafafa;
+	width: 70px;
+	transition: 0.2s ease-in-out;
+	transform: translate(0,20px);
+	border-radius: 5px;
+	box-shadow: 2px 2px 5px #aaa;
+}
+
+.menu ul li 
+{
+	display: block; 
+	float: none;
+}
+
+.menu ul li a 
+{
+	color: #797979; 
+	display: block;
+	font-size: 15px;
+	margin-left: -40px;
+}
+
+.menu ul li a:hover,.menu ul li:hover>a 
+{ 
+	color: #bbb;
+	transition: 0.25s;
+}
+
+.menu li:hover>ul 
+{
+	visibility: visible; 
+	opacity: 1;
+	transform: initial;
+	transition: 0.25s;
+}

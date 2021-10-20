@@ -1,0 +1,9 @@
+<?php
+	if(isset($_SESSION['username']))
+	{
+		unset($_SESSION['user']);
+		unset($_SESSION['nama']);
+	}
+	session_destroy();
+	header('location:../../index.php')
+?>

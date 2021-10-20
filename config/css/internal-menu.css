@@ -1,0 +1,52 @@
+/*menu----------------------------------------------------------------------------------------------------------------------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+nav {
+  font-family: sans-serif;
+  line-height: 1.5;
+  width: 230px;
+  height: 570px;
+}
+
+.menu-item {
+  background: #fff;
+  width: 230px;
+}
+
+.home h4 {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 12px;
+  background: #19AAD4;
+  transition:0.3s ease;
+}
+
+.home h4 a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  width: 230px;
+}
+
+.menu-item h4 {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 12px;
+  background: #FFF;
+  transition:0.3s ease;
+}
+
+.menu-item h4 a {
+  color: #19AAD4;
+  display: block;
+  text-decoration: none;
+  width: 230px;
+}
+
+.menu-item h4:hover {
+  background: #eee;
+}
